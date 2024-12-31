@@ -4,11 +4,11 @@
 
 @layer base {
   html {
-    font-family: sans-serif;
+    font-family: monospace;
   }
 
   body {
-    background-color: rgb(241, 245, 241);
+    background-color: rgb(255, 248, 174);
     overflow-x: hidden;
   }
 }
@@ -19,7 +19,7 @@
   }
 
   .btn-primary {
-    @apply w-full text-sm bg-[#2B85FF] text-white p-2 rounded my-1 hover:bg-blue-700;
+    @apply w-full text-sm bg-[#2b79ff] text-white p-2 rounded my-1 hover:bg-blue-700;
   }
 
   .icon-btn {

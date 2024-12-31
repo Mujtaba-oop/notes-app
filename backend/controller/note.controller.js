@@ -137,7 +137,7 @@ export const updateNotePinned = async (req, res, next) => {
 
     res.status(200).json({
       success: true,
-      message: "Note updated successfully",
+      message: isPinned ? "Note pinned!" : "Note unpinned!",
       note,
     })
   } catch (error) {

@@ -44,3 +44,10 @@ app.use((err, req, res, next) => {
     message,
   })
 })
+
+app.use(
+  cors({
+    origin: "http://localhost:5173", // Your frontend URL
+    credentials: true, // Allow cookies
+  })
+);
